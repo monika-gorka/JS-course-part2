@@ -139,10 +139,40 @@
 // fun(show);
 // wywołanie funkcji fun, wyświetla się Siemka działam!
 
-function fun(x) {
-    x();
-}
+// function fun(x) {
+//     x();
+// }
 
-fun(() => {
-    console.log("Siemka dzialam?!");
+// fun(() => {
+//     console.log("Siemka dzialam?!");
+//   });
+
+
+// *********************************
+// PRZYKŁAD - SORTOWANIE
+// sortowanie działa alfabetycznie więc mamy 1, 11, 12, 3, 3,3 4, 5, 56, 6, 67...
+// jeśli chcemy inaczej to musimy callbackiem
+
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+// tab.sort ();
+
+// console.log(tab);
+
+// co zrobić?
+
+const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+tab.sort((a, b) => {
+    if (a > b) {
+      return 1;
+    } else if (a < b) {
+      return -1;
+    } else {
+      return 0;
+    }
   });
+  
+  console.log(tab);
+
+  //wyświetla nam się posortowane liczbowo
