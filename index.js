@@ -70,3 +70,14 @@
 // console.log(tab.pop()); - usuwa ostatni element
 // console.log(tab);
 // wyświetli nam się 1, 2, 3, 4 bez 5
+
+// TAB.SPLICE - usunięcie elementu pod konkretnym indeksem
+// const tab = [1, 2, 3, 4, 5];
+// tab.splice(2, 1);
+// wyświetli nam się 1, 2, 4, 5
+
+// TAB.SLICE - wyświetlamy fragment - dzielimy
+// const tab = [1, 2, 3, 4, 5];
+// const newtab = tab.slice(0, 2) - podajemy indeks, gdzie się kończy wyświetlanie - 2 się nie zalicza
+// console.log(newtab);
+// wyświetli nam się 1 i 2
