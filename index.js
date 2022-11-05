@@ -161,18 +161,26 @@
 
 // co zrobić?
 
-const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
 
-tab.sort((a, b) => {
-    if (a > b) {
-      return 1;
-    } else if (a < b) {
-      return -1;
-    } else {
-      return 0;
-    }
-  });
+// tab.sort((a, b) => {
+//     if (a > b) {
+//       return 1;
+//     } else if (a < b) {
+//       return -1;
+//     } else {
+//       return 0;
+//     }
+//   });
   
-  console.log(tab);
+//   console.log(tab);
 
   //wyświetla nam się posortowane liczbowo
+
+  //NAJLEPIEJ
+
+  const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+tab.sort((a, b) => a - b);
+
+console.log(tab);
