@@ -64,3 +64,9 @@
 // Możemy oczywiście zmieniać wartości w tablicach ale nie zmieniamy jej referencji
 // const tab = [];
 // tab.push(3);
+
+// TAB.POP
+// const tab = [1, 2, 3, 4, 5];
+// console.log(tab.pop()); - usuwa ostatni element
+// console.log(tab);
+// wyświetli nam się 1, 2, 3, 4 bez 5
