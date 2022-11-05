@@ -22,3 +22,9 @@
 
 // ODWOŁANIE DO INDEKSU, KTÓRY NIE ISTNIEJE
 // wyświetli się undefined
+
+// FUNKCJA PUSH - dodawanie elementu do tablicy
+// let tab = []; - pusta tablica
+// tabl.push(4); - dodajemy element 4
+// console.log[0]; - mamy tablicę 1-elementową więc indeks = 0
+
