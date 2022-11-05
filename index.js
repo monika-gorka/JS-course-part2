@@ -128,13 +128,21 @@
 // ********************
 // PRZYKŁAD - CALLBACK - funckja przekazana jako argument do innej funkcji (sprzężenie zwrotne)
 
+// function fun(x) {
+//     x();
+// }
+
+// const show = () => {
+//     console.log("Siemka działam!")
+// }
+
+// fun(show);
+// wywołanie funkcji fun, wyświetla się Siemka działam!
+
 function fun(x) {
     x();
 }
 
-const show = () => {
-    console.log("Siemka działam!")
-}
-
-fun(show);
-// wywołanie funkcji fun, wyświetla się Siemka działam!
+fun(() => {
+    console.log("Siemka dzialam?!");
+  });
