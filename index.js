@@ -179,8 +179,22 @@
 
   //NAJLEPIEJ
 
-  const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
 
-tab.sort((a, b) => a - b);
+// tab.sort((a, b) => a - b);
 
-console.log(tab);
+// console.log(tab);
+
+
+
+// *****************************
+// PRZYKŁAD - FILTER
+
+const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+const evenNumbers = tab.filter((el) => {
+    return el % 2 === 0;
+});
+
+console.log(evenNumbers);
+// wyświetla tylko elementy parzyste
