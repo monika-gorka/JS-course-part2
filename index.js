@@ -60,3 +60,7 @@
 // tab.shift() - usuwa pierwszy element a pozostałe przesuwa o indeks niżej
 // tab.unshift() - dodaje element na początku i przesuwa o indeks wyżej
 
+// CONST - tworząc zmienną referencyjną tworzymy tablicę jako const dla bezpieczeństwa.
+// Możemy oczywiście zmieniać wartości w tablicach ale nie zmieniamy jej referencji
+// const tab = [];
+// tab.push(3);
