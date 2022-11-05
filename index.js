@@ -28,3 +28,12 @@
 // tabl.push(4); - dodajemy element 4
 // console.log[0]; - mamy tablicę 1-elementową więc indeks = 0
 
+// PĘTLA FOR - WYŚWIETLANIE WSZYSTKICH ELEMENTÓW TABLICY
+// let table = [6, 4, 2, 7, 2];
+// for(let i = 0; i < tab.length; i++) {
+//     console.log(tab[i]);
+// }
+
+// wyświetlą się wszystkie elementy tablicy
+// i - będzie miało wartości indeksu po kolei (mamy zmienną zwiększającą się o 1 od 0)
+// tab.length - właściwośc mówiąca o ilości elementów w tablicy czyli u nas 4 - do tej wartości będzie szła pętla
