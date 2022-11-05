@@ -190,11 +190,23 @@
 // *****************************
 // PRZYKŁAD - FILTER
 
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+// const evenNumbers = tab.filter((el) => {
+//     return el % 2 === 0;
+// });
+
+// console.log(evenNumbers);
+// // wyświetla tylko elementy parzyste
+
+
+// *****************************
+// PRZYKŁAD - MAP - przekształca 1 tabelę w inną tabelę
+
 const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
 
-const evenNumbers = tab.filter((el) => {
-    return el % 2 === 0;
+const newTab = tab.map((el) => {
+    return el * 10;
 });
 
-console.log(evenNumbers);
-// wyświetla tylko elementy parzyste
+console.log(newTab);
