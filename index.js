@@ -215,8 +215,34 @@
 // *****************************
 // PRZYKŁAD - FOR EACH - nie generuje nowej tablicy, pętla jak for ale w ramach funkcji nie pętli
 
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+// tab.forEach((el) => {
+//     console.log(el);
+// });
+
+
+// *****************************
+// ZADANIE - tablica z parzystymi, tablica z nieparzysteymi i średnią wartość
+
 const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
 
-tab.forEach((el) => {
-    console.log(el);
+const evens = tab.filter((el) => {
+    return el % 2 === 0;
 });
+
+console.log(evens);
+
+const odds = tab.filter((el) => {
+    return el % 2 === 1;
+});
+
+console.log(odds);
+
+let sum = 0;
+
+tab.forEach((el) => {
+    sum = sum + el;
+});
+
+console.log(sum / tab.length);
