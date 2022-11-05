@@ -67,3 +67,20 @@
 
 // console.log(even);
 // console.log(odd);
+
+
+// ***********************************
+// TABLE - Ex.10 
+
+// const tab = [6, 4, 3, 7, 2, 1, 5, 8, 5, 3];
+
+// let number = parseInt(prompt("Podaj liczbę"));
+
+// let idx = tab.indexOf(number);
+
+// if(idx === -1) {
+//     console.log("Nie ma");
+// }
+// else {
+//     console.log(idx);
+// }
