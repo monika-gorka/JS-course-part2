@@ -46,3 +46,24 @@
 
 // i !== j - warunek, że indeksy liczb są różne - 3 jest 3 nierówna
 // zmienna duplicate - pomocnicza. Na początku false, bo zakładam, że nie wystąpiły
+
+
+// ***********************************
+// TABLE - Ex. 7 - PODZIAŁ TABLICY
+
+// const tab = [6, 4, 3, 7, 2, 1, 5, 8, 5, 3];
+
+// const even = [];
+// const odd = [];
+
+// for(let i = 0; i < tab.length; i++) {
+//     if(tab[i]%2 === 0) {
+//         even.push(tab[i]);
+//     }
+//     else {
+//         odd.push(tab[i]);
+//     }
+// }
+
+// console.log(even);
+// console.log(odd);
