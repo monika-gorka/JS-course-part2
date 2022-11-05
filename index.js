@@ -50,8 +50,17 @@
 // ***********************
 // PRZYKŁAD 4 - FUNKCJA ANONIMOWA
 
-const mySecondFunction = function(myText) {
+// const mySecondFunction = function(myText) {
+//     return `To jest: ${myText}`;
+// };
+// przypisanie funkcji anonimowej
+
+
+// ***********************
+// PRZYKŁAD 5 - FUNKCJA STRZAŁKOWA
+
+const myThirdFunction = (myText) => {
     return `To jest: ${myText}`;
 };
-// przypisanie funkcji anonimowej
+// przypisanie funkcji strzałkowej
 
