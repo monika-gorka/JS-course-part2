@@ -37,3 +37,8 @@
 // wyświetlą się wszystkie elementy tablicy
 // i - będzie miało wartości indeksu po kolei (mamy zmienną zwiększającą się o 1 od 0)
 // tab.length - właściwośc mówiąca o ilości elementów w tablicy czyli u nas 4 - do tej wartości będzie szła pętla
+
+// STRING A TABLICA
+// let x = "test";
+// let y = ["t", "e", "s", "t"];
+// x[0]
