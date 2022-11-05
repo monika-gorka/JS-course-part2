@@ -89,34 +89,45 @@
 // ***********************************
 // TABLE - Ex.13 - pętla while
 
-const myHistory = [];
+// const myHistory = [];
 
-while (true) {
-  let choice = prompt("Podaj wybor!");
+// while (true) {
+//   let choice = prompt("Podaj wybor!");
 
-  if (choice === "1") {
-    let number1 = parseInt(prompt("Podaj liczbe 1"));
-    let number2 = parseInt(prompt("Podaj liczbe 2"));
-    console.log(number1 + number2);
-    myHistory.push(`${number1} + ${number2} = ${number1 + number2}`);
-  } else if (choice === "2") {
-    let number1 = parseInt(prompt("Podaj liczbe 1"));
-    let number2 = parseInt(prompt("Podaj liczbe 2"));
-    console.log(number1 - number2);
-    myHistory.push(`${number1} - ${number2} = ${number1 - number2}`);
-  } else if (choice === "3") {
-    let number1 = parseInt(prompt("Podaj liczbe 1"));
-    let number2 = parseInt(prompt("Podaj liczbe 2"));
-    console.log(number1 * number2);
-    myHistory.push(`${number1} * ${number2} = ${number1 * number2}`);
-  } else if (choice === "4") {
-    let number1 = parseInt(prompt("Podaj liczbe 1"));
-    let number2 = parseInt(prompt("Podaj liczbe 2"));
-    console.log(number1 / number2);
-    myHistory.push(`${number1} / ${number2} = ${number1 / number2}`);
-  } else if (choice === "5") {
-    console.log(myHistory);
-  } else if (choice === "0") {
-    break;
-  }
-}
+//   if (choice === "1") {
+//     let number1 = parseInt(prompt("Podaj liczbe 1"));
+//     let number2 = parseInt(prompt("Podaj liczbe 2"));
+//     console.log(number1 + number2);
+//     myHistory.push(`${number1} + ${number2} = ${number1 + number2}`);
+//   } else if (choice === "2") {
+//     let number1 = parseInt(prompt("Podaj liczbe 1"));
+//     let number2 = parseInt(prompt("Podaj liczbe 2"));
+//     console.log(number1 - number2);
+//     myHistory.push(`${number1} - ${number2} = ${number1 - number2}`);
+//   } else if (choice === "3") {
+//     let number1 = parseInt(prompt("Podaj liczbe 1"));
+//     let number2 = parseInt(prompt("Podaj liczbe 2"));
+//     console.log(number1 * number2);
+//     myHistory.push(`${number1} * ${number2} = ${number1 * number2}`);
+//   } else if (choice === "4") {
+//     let number1 = parseInt(prompt("Podaj liczbe 1"));
+//     let number2 = parseInt(prompt("Podaj liczbe 2"));
+//     console.log(number1 / number2);
+//     myHistory.push(`${number1} / ${number2} = ${number1 / number2}`);
+//   } else if (choice === "5") {
+//     console.log(myHistory);
+//   } else if (choice === "0") {
+//     break;
+//   }
+// }
+
+
+// // TABLICE DWUWYMIAROWE - tablice, której elementami są tablice
+
+// const tab = [
+//     [1, 2, 3],
+//     [2, 3, 4],
+//     [4, 3, 2]
+// ];
+
+// console.log(tab[1][1]);
