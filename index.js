@@ -42,3 +42,13 @@
 // let x = "test";
 // let y = ["t", "e", "s", "t"];
 // x[0]
+
+// PĘTLA FOR - IN- wyświetlanie kolejnych indeksów
+// for(let x in tab){
+//     console.log(tab[x])
+// }
+
+// PĘTLA FOR - OF- wyświetlanie kolejnych wartości
+// for(let x of tab){
+//     console.log(tab[x])
+// }
