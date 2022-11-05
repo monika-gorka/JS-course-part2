@@ -97,14 +97,29 @@
 
 // PRZYKŁAD - zmienna wartościowa
 
+// function add(x) {
+//     x = x + 1;
+// }
+
+// let z = 5;
+
+// add(z);
+
+// console.log(z);
+
+//wyświetla się 5
+
+
+// PRZYKŁAD - zmienna referencyjna
+
 function add(x) {
-    x = x + 1;
+    x[0] = 999
 }
 
-let z = 5;
+let z = [1, 2, 3];
 
 add(z);
 
-console.log(z);
+console.log(z[0]);
 
-//wyświetla się 5
+//wyświetla się 999
