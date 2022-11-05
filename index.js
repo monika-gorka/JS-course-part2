@@ -11,13 +11,24 @@
 // ***********************
 // FUNCTION - Ex. 6
 
-function sumTab(tab) {
-    let sum = 0;
+// function sumTab(tab) {
+//     let sum = 0;
 
-    for (let i = 0; i < tab.length; i++) {
-        sum = sum + tab[i];
+//     for (let i = 0; i < tab.length; i++) {
+//         sum = sum + tab[i];
+//     }
+//     return sum;
+// }
+
+// console.log(sumTab([6, 5, 4]));
+
+const sumTab = (tab) => {
+        let sum = 0;
+    
+        for (let i = 0; i < tab.length; i++) {
+            sum = sum + tab[i];
+        }
+        return sum;
     }
-    return sum;
-}
-
-console.log(sumTab([6, 5, 4]));
+    
+    console.log(sumTab([6, 5, 4]));
