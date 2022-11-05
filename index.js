@@ -52,3 +52,11 @@
 // for(let x of tab){
 //     console.log(tab[x])
 // }
+
+// FUNKCJE W TABLICACH
+// tab.toString - wyświetli tablicę jako tekst
+// tab.join('*') - wyświetli separator * między elementami
+// tab.pop() - usuwa ostatni element z tablicy i go zwraca
+// tab.shift() - usuwa pierwszy element a pozostałe przesuwa o indeks niżej
+// tab.unshift() - dodaje element na początku i przesuwa o indeks wyżej
+
