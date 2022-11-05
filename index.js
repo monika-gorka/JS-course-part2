@@ -160,20 +160,32 @@
 // ***********************************
 // STRING - Ex. 16
 
-let text = "To jest moj super extrta tekst";
-let ileSamoglosek = 0;
+// let text = "To jest moj super extrta tekst";
+// let ileSamoglosek = 0;
 
-for (let i = 0; i < text.length; i++) {
-  if (
-    text[i] === "a" ||
-    text[i] === "o" ||
-    text[i] === "e" ||
-    text[i] === "u" ||
-    text[i] === "i" ||
-    text[i] === "y"
-  ) {
-    ileSamoglosek++;
-  }
+// for (let i = 0; i < text.length; i++) {
+//   if (
+//     text[i] === "a" ||
+//     text[i] === "o" ||
+//     text[i] === "e" ||
+//     text[i] === "u" ||
+//     text[i] === "i" ||
+//     text[i] === "y"
+//   ) {
+//     ileSamoglosek++;
+//   }
+// }
+
+// console.log(ileSamoglosek);
+
+
+// ***********************************
+// STRING - Ex. 13 - tekst od końca
+
+let text = "To jest moj super extrta tekst";
+
+for (let i = text.length -1; i >= 0; i--) {
+    console.log(text[i]);
 }
 
-console.log(ileSamoglosek);
+// -1 - powoduje, że zgadza nam się numer indeksu (lenght to 5 a maxc index to 4)
