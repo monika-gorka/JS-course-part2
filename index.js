@@ -182,10 +182,32 @@
 // ***********************************
 // STRING - Ex. 13 - tekst od końca
 
-let text = "To jest moj super extrta tekst";
+// let text = "To jest moj super extrta tekst";
 
-for (let i = text.length -1; i >= 0; i--) {
-    console.log(text[i]);
+// for (let i = text.length -1; i >= 0; i--) {
+//     console.log(text[i]);
+// }
+
+// // -1 - powoduje, że zgadza nam się numer indeksu (lenght to 5 a maxc index to 4)
+
+
+// ***********************************
+// TABLE - Ex. 14 - MATH.FLOOR(MATH.RANDOM()*(MAX-MIN)+MIN)
+
+const uniqueNumbers = [];
+
+while(uniqueNumbers.length !==6) {
+    //jak bedzie 6 elementow to petla przestaje dzialac
+let rndNumber = Math.floor(Math.random() * 11);
+// liczby od 0 do 9 to 10 liczb a tu wpisujemy 11, bo max nie jest brane pod uwagę, min = 0 wiec nie piszemy
+
+if(uniqueNumbers.includes(rndNumber)) {
+//includes zwraca true of false. sprawdzamy czy liczba juz istnieje w naszej tablicy. jesli istnieje to nie jest unikalna
+console.log("Liczba istnieje");
+}
+else {
+    uniqueNumbers.push(rndNumber);
+}
 }
 
-// -1 - powoduje, że zgadza nam się numer indeksu (lenght to 5 a maxc index to 4)
+console.log(uniqueNumbers);
