@@ -7,10 +7,25 @@
 // function nazwaFunkcji(arguemnty) {skrzynka z naszym kawałkiem kodu - tego nie widzimy, wiemy co może z tej fukcji wyskoczyć}
 
 // PRZYKŁAD
-function myFunction () {
-    let x = "Moje info";
-    console.log(`To jest: ${x}`);
+// function myFunction () {
+//     let x = "Moje info";
+//     console.log(`To jest: ${x}`);
+// }
+
+// myFunction();
+// to jest wywołanie funkcji i dopiero zadziała
+
+
+// ***********************
+// PRZYKŁAD 2
+
+function myFunction(myText) {
+    console.log(`To jest: ${myText}`);
 }
 
-myFunction();
-// to jest wywołanie funkcji i dopiero zadziała
+myFunction("Moj super text");
+
+// lub
+
+// let x ="Moj super text";
+// myFunction(x);
