@@ -55,40 +55,56 @@
 // ***********************
 // FUNCTION - Ex. 14
 
-function findMinValue (tab) {
-    let min = tab[0];
+// function findMinValue (tab) {
+//     let min = tab[0];
 
-    for(let i = 0; i < tab.length; i++) {
-        if(min > tab[i]) {
-            min = tab[i];
-        }
-    }
-    return min;
+//     for(let i = 0; i < tab.length; i++) {
+//         if(min > tab[i]) {
+//             min = tab[i];
+//         }
+//     }
+//     return min;
+// }
+
+// const findMaxValue = function(tab) {
+//     let max= tab[0];
+
+//     for(let i = 0; i < tab.length; i++) {
+//         if(max < tab[i]) {
+//             max = tab[i];
+//         }
+//     }
+//     return max;
+// }
+
+// const getAverage = (tab) => {
+//     let sum= 0;
+
+//     for(let i = 0; i < tab.length; i++) {
+//         sum = sum + tab[i];
+//         }
+
+//     return sum;
+// }
+
+// const tab = [5, 34, 2, 1, 7, 45, 4];
+
+// console.log(findMinValue(tab));
+// console.log(findMaxValue(tab));
+// console.log(getAverage(tab));
+
+
+
+// PRZYKŁAD - zmienna wartościowa
+
+function add(x) {
+    x = x + 1;
 }
 
-const findMaxValue = function(tab) {
-    let max= tab[0];
+let z = 5;
 
-    for(let i = 0; i < tab.length; i++) {
-        if(max < tab[i]) {
-            max = tab[i];
-        }
-    }
-    return max;
-}
+add(z);
 
-const getAverage = (tab) => {
-    let sum= 0;
+console.log(z);
 
-    for(let i = 0; i < tab.length; i++) {
-        sum = sum + tab[i];
-        }
-
-    return sum;
-}
-
-const tab = [5, 34, 2, 1, 7, 45, 4];
-
-console.log(findMinValue(tab));
-console.log(findMaxValue(tab));
-console.log(getAverage(tab));
+//wyświetla się 5
