@@ -131,3 +131,49 @@
 // ];
 
 // console.log(tab[1][1]);
+
+
+// ***********************************
+// TABLE - Ex.18 - tablica 5x5
+
+// const tab = [
+//     [1, 2, 3, 9, 5],
+//     [2, 3, 4, 544, 2],
+//     [4, 3, 2, 33, 11],
+//     [8, 4, 3, 6, 0 ],
+//     [4, 9, 22, 6, 9],
+// ];
+
+// let min = tab[0][0];
+
+// for(let i = 0; i < tab.length; i++) {
+//     for (let j = 0; j < tab[i].length; j++) {
+//         if (min > tab[i][j]) {
+//             min = tab[i][j];
+//         }
+//     }
+// }
+
+// console.log(min);
+
+
+// ***********************************
+// STRING - Ex. 16
+
+let text = "To jest moj super extrta tekst";
+let ileSamoglosek = 0;
+
+for (let i = 0; i < text.length; i++) {
+  if (
+    text[i] === "a" ||
+    text[i] === "o" ||
+    text[i] === "e" ||
+    text[i] === "u" ||
+    text[i] === "i" ||
+    text[i] === "y"
+  ) {
+    ileSamoglosek++;
+  }
+}
+
+console.log(ileSamoglosek);
