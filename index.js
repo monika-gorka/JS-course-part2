@@ -19,13 +19,29 @@
 // ***********************
 // PRZYKŁAD 2
 
-function myFunction(myText) {
-    console.log(`To jest: ${myText}`);
-}
+// function myFunction(myText) {
+//     console.log(`To jest: ${myText}`);
+// }
 
-myFunction("Moj super text");
+// myFunction("Moj super text");
 
 // lub
 
 // let x ="Moj super text";
 // myFunction(x);
+
+
+// ***********************
+// PRZYKŁAD 3 - return
+
+function myFunction(myText) {
+    return `To jest: ${myText}`;
+    let x = 3;
+    // let x się nie wykona, bo wcześniej jest return
+}
+
+// myFunction("My super text");
+// samo wywołanie nie spowoduje żadnego efektu. nie przypisaliśmy do zmiennej
+
+console.log(myFunction("My super text"));
+// wywołanie funkcji, dopiero teraz się wyświetla
