@@ -34,14 +34,24 @@
 // ***********************
 // PRZYKŁAD 3 - return
 
-function myFunction(myText) {
-    return `To jest: ${myText}`;
-    let x = 3;
+// function myFunction(myText) {
+//     return `To jest: ${myText}`;
+//     let x = 3;
     // let x się nie wykona, bo wcześniej jest return
-}
+// }
 
 // myFunction("My super text");
 // samo wywołanie nie spowoduje żadnego efektu. nie przypisaliśmy do zmiennej
 
-console.log(myFunction("My super text"));
+// console.log(myFunction("My super text"));
 // wywołanie funkcji, dopiero teraz się wyświetla
+
+
+// ***********************
+// PRZYKŁAD 4 - FUNKCJA ANONIMOWA
+
+const mySecondFunction = function(myText) {
+    return `To jest: ${myText}`;
+};
+// przypisanie funkcji anonimowej
+
