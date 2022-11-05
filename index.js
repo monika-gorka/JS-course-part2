@@ -112,14 +112,29 @@
 
 // PRZYKŁAD - zmienna referencyjna
 
-function add(x) {
-    x[0] = 999
-}
+// function add(x) {
+//     x[0] = 999
+// }
 
-let z = [1, 2, 3];
+// let z = [1, 2, 3];
 
-add(z);
+// add(z);
 
-console.log(z[0]);
+// console.log(z[0]);
 
 //wyświetla się 999
+
+
+// ********************
+// PRZYKŁAD - CALLBACK - funckja przekazana jako argument do innej funkcji (sprzężenie zwrotne)
+
+function fun(x) {
+    x();
+}
+
+const show = () => {
+    console.log("Siemka działam!")
+}
+
+fun(show);
+// wywołanie funkcji fun, wyświetla się Siemka działam!
