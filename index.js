@@ -203,10 +203,20 @@
 // *****************************
 // PRZYKŁAD - MAP - przekształca 1 tabelę w inną tabelę
 
+// const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
+
+// const newTab = tab.map((el) => {
+//     return el * 10;
+// });
+
+// console.log(newTab);
+
+
+// *****************************
+// PRZYKŁAD - FOR EACH - nie generuje nowej tablicy, pętla jak for ale w ramach funkcji nie pętli
+
 const tab = [6, 4, 11, 12, 1, 3, 67, 5, 3, 56];
 
-const newTab = tab.map((el) => {
-    return el * 10;
+tab.forEach((el) => {
+    console.log(el);
 });
-
-console.log(newTab);
